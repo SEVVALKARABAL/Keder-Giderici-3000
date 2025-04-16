@@ -19,13 +19,10 @@ export default function ActivityCard({
               <span>Tür:</span> {type}{' '}
             </p>
             <p>
-              <span>Katılımcılar:</span> {participants}{' '}
+              <span>Karakter:</span> {activityData.character}
             </p>
             <p>
-              <span>Erişilebilirlik:</span> {accessibility * 100}{' '}
-            </p>
-            <p>
-              <span>Fiyat:</span> {(price * 100).toFixed(0)}{' '}
+              <span>Alıntı:</span> {activityData.quote}
             </p>
           </div>
         </div>
